@@ -1,0 +1,449 @@
+body{
+min-height: 98vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: url("Slike/pozadina.jpg");
+color: #333;
+font-family: "calibri", sans-serif;
+font-weight: 400;
+}
+
+/*!!!; prema dole*/
+.container{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 2vmin;
+grid-row-gap: 2vmin;
+margin-left: -8%;
+}
+/* @import url(//db.onlinewebfonts.com/c/2c37f3699d9728b566e9bdc5b11e5180?family=BeaufortW01-Regular); */
+.team_name{
+font-size: 4vmin;
+outline: none;
+color: gold;
+text-decoration: none;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.team_name:visited{
+text-decoration: none;
+}
+
+.player_name{
+font-size: 2.6vmin;
+outline: none;
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-family: 'Times New Roman', Times, serif;
+text-shadow: 2px 2px 2px #0150c5;
+}
+
+.player_name:visited{
+text-decoration: none; 
+}
+
+/*ovo trebam optimizirati jos; prema dole*/
+.team1{
+text-align: center;
+padding: 2vmin;
+border-radius: 6px;
+background-color: rgb(127, 155, 192);
+flex: 0 0 80%;
+grid-area: 1 / 1 / 2 / 2;
+outline: none;
+background: url("Slike/Logo1.jpg") center center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.team2{
+text-align: center;
+padding: 2vmin;
+border-radius: 6px;
+background-color: rgb(127, 155, 192);
+flex: 0 0 80%;
+grid-area: 1 / 2 / 2 / 3;
+outline: none;
+background: url("Slike/Logo2.jpg") center center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+    
+.team3{
+text-align: center;
+padding: 2vmin;
+border-radius: 6px;
+background-color: rgb(127, 155, 192);
+flex: 0 0 80%;
+grid-area: 1 / 3 / 2 / 4;
+outline: none;
+background:  url("Slike/Logo3.jpg") center center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.team4{
+text-align: center;
+padding: 2vmin;
+border-radius: 6px;
+background-color: rgb(127, 155, 192);
+flex: 0 0 80%;
+grid-area: 2 / 1 / 3 / 2;
+outline: none;
+background: url("Slike/Logo4.jpg") center center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.team5{
+text-align: center;
+padding: 2vmin;
+border-radius: 6px;
+background-color: rgb(127, 155, 192);
+flex: 0 0 80%;
+grid-area: 2 / 2 / 3 / 3;
+outline: none;
+background: url("Slike/Logo5-jpg.gif") center center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.team6{
+text-align: center;
+padding: 2vmin;
+border-radius: 6px;
+background-color: rgb(127, 155, 192);
+flex: 0 0 80%;
+grid-area: 2 / 3 / 3 / 4;
+outline: none;
+background: url("Slike/Logo6.png") center center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+img{
+border-radius: 10px;
+}
+
+/*
+rgba(6, 99, 116, 0.6);
+*/
+
+/* The sidebar menu */
+.sidenav{
+height: 100%; /* Full-height: remove this if you want "auto" height */
+width: 9.3vw; /* Set the width of the sidebar */
+position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+z-index: 1; /* Stay on top */
+top: 0; /* Stay at the top */
+left: 0;
+background: url("Slike/sidenavbg.jpg") center center;/* Black */
+background-repeat: no-repeat;
+background-size: cover;
+overflow-x: hidden; /* Disable horizontal scroll */
+padding-top: 20px;
+}
+  
+/* The navigation menu links */
+.sidenav a{
+padding: 6% 8% 6% 6%;
+text-decoration: none;
+font-size: 1.7vw;
+color: #818181;
+display: block;
+}
+  
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover{
+color: #f1f1f1;
+}
+  
+/* Style page content */
+.main{
+margin-left: 160px; /* Same as the width of the sidebar */
+padding: 0px 10px;
+}
+  
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+/*
+@media screen and (max-height: 450px){
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+} */
+
+/*!!! prema dole*/
+.infoPage{
+background: url("Slike/Scroll3.png") center center;
+background-repeat: no-repeat;
+background-size: contain;
+height: 69vmin;
+display:flex;
+justify-content: center;
+border-radius:15px;
+text-align: center;
+padding: 6.5%;
+font-size: 2.3vmin;
+}
+
+/*!!! prema dole*/
+.teamInfo{
+background: url("Slike/Scroll2.png") center center;
+background-repeat: no-repeat;
+background-size: contain;
+width: 75vmin;
+height: 95vmin;
+justify-content: center;
+display:flex;
+border-radius:15px;
+text-align: center;
+margin-left: -9%;
+}
+
+.teamInfo h1{
+font-size: 5.6vmin;
+}
+
+.teamInfo p{
+font-size: 3.4vmin;
+}
+
+.teamInfo img{
+position: absolute;
+top: 54%;
+left: 26%;
+height: 27%;
+}
+
+/*Moram ovo sa Edinom; prema dole*/
+.player_grid{
+display: grid;
+margin-left: -7% ;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 0.3%;
+grid-row-gap: 0.5%;
+font-size: 2vw;
+white-space: nowrap;
+color: white;
+text-align: left;
+}
+
+.player_stats{
+font-size: 1.6vw;
+text-align: left;
+white-space: nowrap;
+}
+
+.div1_p{
+grid-area: 1 / 1 / 2 / 2; 
+padding: 2.2vh;
+width: 32.6vw;
+height: 26.3vh;
+border-radius: 7px;
+background-image: url("Slike/border3.png");
+background-repeat: no-repeat;
+background-size: contain;
+}
+.div2_p{
+grid-area: 1 / 2 / 2 / 3;
+padding: 2.2vh;
+width: 32.6vw;
+height: 26.3vh;
+border-radius: 7px;
+background-image: url("Slike/border3.png");
+background-repeat: no-repeat;
+background-size: contain;
+}
+.div3_p{ 
+grid-area: 2 / 1 / 3 / 2; 
+padding: 2.2vh;
+width: 32.6vw;
+height: 26.3vh;
+border-radius: 7px;
+background-image: url("Slike/border3.png");
+background-repeat: no-repeat;
+background-size: contain;
+}
+.div4_p{ 
+grid-area: 2 / 2 / 3 / 3; 
+padding: 2.2vh;
+width: 32.6vw;
+height: 26.3vh;
+border-radius: 7px;
+background-image: url("Slike/border3.png");
+background-repeat: no-repeat;
+background-size: contain;
+}
+.div5_p{ 
+grid-area: 3 / 1 / 4 / 2; 
+padding: 2.2vh;
+width: 32.6vw;
+height: 26.3vh;
+border-radius: 7px;
+background-image: url("Slike/border3.png");
+background-repeat: no-repeat;
+background-size: contain;
+}
+.div6_p{ 
+grid-area: 3 / 2 / 4 / 3; 
+padding: 2.2vh;
+width: 32.6vw;
+height: 26.3vh;
+border-radius: 7px;
+background-image: url("Slike/border3.png");
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+
+.screenshots img{
+width: 130vh;
+margin-left: -5%;
+}
+
+.slike_text{
+margin-left: -5%;
+font-size: 6vmin;
+color: white;
+}
+
+.mvp p{
+font-size: 30px;
+background-color: lightblue;
+border-radius: 8px;
+padding: 20px;
+}
+
+.mvp{
+position: absolute;
+right: 0%;
+top: 27%;
+}
+
+#informacije{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+width: 120vh;
+margin-right: 7.5%;
+}
+
+
+/*TABELA/GROUPS !!!*/
+table{
+width: 70%;
+height: 50%;
+}
+
+table.cinereousTable{
+border: 0.8vh solid #373994;
+background: -moz-linear-gradient(top, #696aaf 0%, #4b4c9e 66%, #373994 100%);
+background: -webkit-linear-gradient(top, #696aaf 0%, #4b4c9e 66%, #373994 100%);
+background: linear-gradient(to bottom, #696aaf 0%, #4b4c9e 66%, #373994 100%);
+width: 60%;
+text-align: center;
+position: absolute;
+left: 13%;
+color: white;
+}
+table.cinereousTable td, table.cinereousTable th{
+border: 0.4vh solid #e2d7ffbb;
+padding: 1.3% 1.3%;
+}
+table.cinereousTable tbody td{
+font-size: 3vh;
+}
+table.cinereousTable thead{
+background: #373994;
+background: -moz-linear-gradient(top, #696aaf 0%, #4b4c9e 66%, #373994 100%);
+background: -webkit-linear-gradient(top, #696aaf 0%, #4b4c9e 66%, #373994 100%);
+background: linear-gradient(to bottom, #696aaf 0%, #4b4c9e 66%, #373994 100%);
+border-bottom: 1px solid #927E94;
+}
+table.cinereousTable thead th{
+font-size: 3.5vh;
+font-weight: bold;
+color: #FFFDFD;
+text-align: center;
+border-left: 0.4vh solid #e2d7ffbb;
+}
+table.cinereousTable thead th:first-child{
+border-left: 0.4vh solid #e2d7ffbb;
+}
+/*TABELA/GROUPS !!!*/
+
+/*Schedule !!!*/
+.schedule{
+width: 70%;
+height: 50%;
+}
+    
+.schedule{
+border: 0.8vh solid #0576f4;
+background: -moz-linear-gradient(top, #44aff4 0%, #2368ff 60%, #0b2a64 100%);
+background: -webkit-linear-gradient(top, #44aff4 0%, #2368ff 60%, #0b2a64 100%);
+background: linear-gradient(to bottom, #44aff4 0%, #2368ff 60%, #0b2a64 100%);
+width: 60%;
+text-align: center;
+position: absolute;
+left: 13%;
+color: white;
+}
+.schedule td, .schedule th{
+border: 0.4vh solid #e6ddffbb;
+padding: 1.3% 1.3%;
+}
+.schedule tbody td{
+font-size: 3vh;
+}
+.schedule thead{
+background: #373994;
+background: -moz-linear-gradient(top, #44aff4 0%, #2368ff 60%, #0b2a64 100%);
+background: -webkit-linear-gradient(top, #44aff4 0%, #2368ff 60%, #0b2a64 100%);
+background: linear-gradient(to bottom, #44aff4 0%, #2368ff 60%, #0b2a64 100%);
+border-bottom: 1px solid #0576f4;
+}
+.schedule thead th{
+font-size: 3.5vh;
+font-weight: bold;
+color: #FFFDFD;
+text-align: center;
+border-left: 0.4vh solid #e6ddffbb;
+}
+.schedule thead th:first-child{
+border-left: 0.4vh solid #e6ddffbb;
+}
+/*Schedule !!!*/
+
+
+/*BRACKETS !!!*/
+.standings_img{
+width: 60vw;
+margin-right: 10vw;
+}
+/*BRACKETS !!! width: 70%;
+height: 50%;*/
+
+#fb{
+position: absolute;
+top:86%;
+left:20%;
+width: 55%;
+}
+
+#dc{
+position: absolute;
+top:79%;
+left:17%;
+width: 62%;
+}
+
+#logo_page{
+position: absolute;
+top:2%;
+left: 7%;
+width:85%;
+}
